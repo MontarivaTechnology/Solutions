@@ -1,0 +1,23 @@
+name: Idea or question
+description: Suggest an improvement, a new product, or ask how something works
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - File Drop Zone
+        - Signature Pad
+        - Unmanaged Layer Finder
+        - Deployment Doctor
+        - Idea for a new product
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea or question
+      description: What would you like to do, and how would it help?
+    validations:
+      required: true

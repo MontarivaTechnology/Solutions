@@ -1,0 +1,39 @@
+name: Problem report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please remove customer names, environment URLs and personal data from anything you paste.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - File Drop Zone
+        - Signature Pad
+        - Unmanaged Layer Finder
+        - Deployment Doctor
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Product version
+      description: Shown in the solution list (PCF controls) or the tool's About box (XrmToolBox tools).
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Error message, screenshot or environment details
+      description: e.g. browser, model-driven app or XrmToolBox version.
