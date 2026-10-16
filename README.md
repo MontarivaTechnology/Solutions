@@ -27,7 +27,7 @@ Install them from inside XrmToolBox: **Tool Library** > search the tool name > *
 | Product | What it does | Version | Install |
 |---|---|---|---|
 | [**Unmanaged Layer Finder**](xrmtoolbox-tools/unmanaged-layer-finder/) | Scans a whole solution for unmanaged (Active) layers and shows what changed, when and by whom. | 1.3.0 | XrmToolBox Tool Library |
-| [**Deployment Doctor**](xrmtoolbox-tools/deployment-doctor/) | Explains why a change deployed with a managed solution doesn't show in the target environment (forms, views, web resources, workflows, cloud flows), with guided fixes and shareable reports. | 1.0.0 | XrmToolBox Tool Library |
+| [**Deployment Doctor**](xrmtoolbox-tools/deployment-doctor/) | Explains why a change deployed with a managed solution doesn't show in the target environment, or compares a whole solution between Dev and Target (forms, views, site maps, ribbons, web resources, workflows, cloud flows, environment variables, connection references, plug-ins), with guided fixes and shareable reports. | 1.5.2 | XrmToolBox Tool Library |
 
 How to install, update or install offline: [docs/installing-xrmtoolbox-tools.md](docs/installing-xrmtoolbox-tools.md)
 
