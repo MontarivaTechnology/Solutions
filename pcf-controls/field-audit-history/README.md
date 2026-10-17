@@ -6,7 +6,7 @@ See **who changed which field, and when**, right on a Dynamics 365 / Dataverse m
 |---|---|---|---|
 | **0.1.0** | Preview | Montariva Technology (prefix `mrt`) | **[MrtFieldAuditHistory_managed.zip](https://github.com/MontarivaTechnology/Solutions/releases/download/FieldAuditHistory-v0.1.0/MrtFieldAuditHistory_managed.zip)** |
 
-<img src="img/field-audit-history.png" width="480" alt="Field Audit History showing the changes of the last 30 days, grouped by day" />
+<img src="img/field-audit-history.png" width="720" alt="Field Audit History showing the changes of the last 30 days, grouped by day" />
 
 📘 **[User guide](user-guide.md)**: install, add to a form, every setting explained, security and troubleshooting.
 

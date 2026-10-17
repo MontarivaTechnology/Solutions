@@ -4,7 +4,7 @@
 
 Field Audit History shows, on a model-driven form, who changed which field of the record and when, with the old and new value of every change. Instead of reading the full audit log, users pick a field, a period or a person and see only that history.
 
-<img src="img/field-audit-history.png" width="480" alt="Field Audit History on a form" />
+<img src="img/field-audit-history.png" width="720" alt="Field Audit History on a form" />
 
 ## Features
 
