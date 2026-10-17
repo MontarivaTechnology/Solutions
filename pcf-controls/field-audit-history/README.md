@@ -4,7 +4,7 @@ See **who changed which field, and when**, right on a Dynamics 365 / Dataverse m
 
 | Version | Status | Publisher | Download |
 |---|---|---|---|
-| **0.1.0** | Preview | Montariva Technology (prefix `mrt`) | **[MrtFieldAuditHistory_managed.zip](https://github.com/MontarivaTechnology/Solutions/releases/download/FieldAuditHistory-v0.1.0/MrtFieldAuditHistory_managed.zip)** |
+| **0.1.1** | Preview | Montariva Technology (prefix `mrt`) | **[MrtFieldAuditHistory_managed.zip](https://github.com/MontarivaTechnology/Solutions/releases/download/FieldAuditHistory-v0.1.1/MrtFieldAuditHistory_managed.zip)** |
 
 <img src="img/field-audit-history.png" width="720" alt="Field Audit History showing the changes of the last 30 days, grouped by day" />
 
@@ -32,7 +32,7 @@ See **who changed which field, and when**, right on a Dynamics 365 / Dataverse m
 
 ## Install
 
-1. Download **[MrtFieldAuditHistory_managed.zip](https://github.com/MontarivaTechnology/Solutions/releases/download/FieldAuditHistory-v0.1.0/MrtFieldAuditHistory_managed.zip)**.
+1. Download **[MrtFieldAuditHistory_managed.zip](https://github.com/MontarivaTechnology/Solutions/releases/download/FieldAuditHistory-v0.1.1/MrtFieldAuditHistory_managed.zip)**.
 2. In [make.powerapps.com](https://make.powerapps.com): **Solutions** > **Import solution** > pick the zip > **Next** > **Import**. More detail: [installing managed solutions](../../docs/installing-managed-solutions.md).
 3. On the table, add a **single line text** column to host the control (its value is never read or changed).
 4. In the form designer: add an **Audit** tab, put that column on it, then **Components** > **+ Component** > **Field Audit History (Montariva Technology)** > **Done**. Turn off the column's label > **Save and publish**.

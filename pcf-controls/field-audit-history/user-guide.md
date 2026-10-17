@@ -1,6 +1,6 @@
 # Field Audit History - User Guide
 
-**Version 0.1.0** · PCF control for Dynamics 365 / Dataverse model-driven apps · by Montariva Technology
+**Version 0.1.1** · PCF control for Dynamics 365 / Dataverse model-driven apps · by Montariva Technology
 
 Field Audit History shows, on a model-driven form, who changed which field of the record and when, with the old and new value of every change. Instead of reading the full audit log, users pick a field, a period or a person and see only that history.
 
@@ -27,7 +27,7 @@ Field Audit History shows, on a model-driven form, who changed which field of th
 
 ## Install
 
-1. Download **[MrtFieldAuditHistory_managed.zip](https://github.com/MontarivaTechnology/Solutions/releases/download/FieldAuditHistory-v0.1.0/MrtFieldAuditHistory_managed.zip)**.
+1. Download **[MrtFieldAuditHistory_managed.zip](https://github.com/MontarivaTechnology/Solutions/releases/download/FieldAuditHistory-v0.1.1/MrtFieldAuditHistory_managed.zip)**.
 2. Go to [make.powerapps.com](https://make.powerapps.com), pick your environment, then **Solutions** > **Import solution** > **Browse**, choose the zip and select **Import**. More detail: [installing managed solutions](../../docs/installing-managed-solutions.md).
 
 Import it once per environment. It works for every table.
