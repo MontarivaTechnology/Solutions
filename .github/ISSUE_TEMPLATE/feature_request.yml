@@ -9,6 +9,7 @@ body:
       options:
         - File Drop Zone
         - Signature Pad
+        - Field Audit History
         - Unmanaged Layer Finder
         - Deployment Doctor
         - Idea for a new product
